@@ -4,6 +4,9 @@ const Projects = (props)=>{
     const hero={
         marginTop:"-1em"
     }
+    const heroh2={
+        color:"rgb(235, 229, 229);"
+    }
     return(
         <div className="project">
             <div>
@@ -15,7 +18,7 @@ const Projects = (props)=>{
                 </nav>
             </div>
             <div style={hero}>
-                <h2>Project Apps</h2>
+                <h2 style={heroh2}>Project Apps</h2>
                 <div className="projectImage">
                     <div>
                         <img className="imagesP" src="../../flowerbox.png" alt="img"/>
@@ -23,12 +26,12 @@ const Projects = (props)=>{
                     </div>
                     <div>
                         <img className="imagesP" src="../../holiday.png" alt="img"/>
-                        <p>Holiday</p>
+                        <p>Holiday: Project2SNAP</p>
                     </div>
                     
                     <div>
                         <img className="imagesP" src="../../country.png" alt="img"/>
-                        <p>CountryPedia</p>
+                        <p>CountryPedia: Project2SNAP</p>
                     </div>
                     <div>
                         <img className="imagesP" src="../../animal.png" alt="img"/>

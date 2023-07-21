@@ -79,3 +79,11 @@ code {
   height: 4em;
   border-radius: 50%;
 }
+.footer{
+  background-color: rgba(0, 0, 0,0.8);
+  margin-top: -1.4em;
+}
+.footerImage p, .footer h3{
+  font-weight: 700;
+  color:rgb(235, 229, 229);
+}

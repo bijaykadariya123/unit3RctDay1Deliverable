@@ -5,7 +5,7 @@ const Projects = (props)=>{
         marginTop:"-1em"
     }
     const heroh2={
-        color:"rgb(235, 229, 229);"
+        color:"rgb(235, 229, 229)"
     }
     return(
         <div className="project">
